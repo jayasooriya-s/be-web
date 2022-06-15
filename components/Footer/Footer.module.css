@@ -76,3 +76,8 @@
   right: 0px;
   position: absolute;
 }
+
+.social_icon {
+  color: #f6b72e;
+  cursor: pointer;
+}

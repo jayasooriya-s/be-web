@@ -17,9 +17,15 @@ function Footer() {
         </p>
 
         <div className={styles.social}>
-          <AiOutlineInstagram />
-          <FiTwitter />
-          <AiOutlineYoutube />
+          <a href="https://www.instagram.com/" className={styles.social_icon}>
+            <AiOutlineInstagram />
+          </a>
+          <a href="https://twitter.com/" className={styles.social_icon}>
+            <FiTwitter />
+          </a>
+          <a href="https://www.youtube.com/" className={styles.social_icon}>
+            <AiOutlineYoutube />
+          </a>
         </div>
       </div>
       <div className={styles.footer_container_right}>
