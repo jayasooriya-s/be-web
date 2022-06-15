@@ -23,7 +23,7 @@ function Footer() {
         </div>
       </div>
       <div className={styles.footer_container_right}>
-        <ul>
+        <ul className={styles.footer_ul}>
           <li className={styles.footer_li}>SERVICE</li>
           <li className={styles.footer_li}>ACCOMPLISHMENT</li>
           <li className={styles.footer_li}>PEOPLE</li>

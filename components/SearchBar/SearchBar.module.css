@@ -12,8 +12,11 @@
   border-radius: 8px;
   border-color: #1a1b1b;
   color: #f6b72e;
-  font-size: 18px;
-  box-shadow: -10px -10px 3px -5px #4d4e4e inset, 1px 0 1px 0 black;
+  font-size: 16px;
+  box-shadow: inset 5px 5px 16px #0b0909, inset -5px -5px 16px #2d2525;
+  /* box-shadow: inset 15px 15px 30px #101010, inset -15px -15px 30px #424040; */
+  /* box-shadow: inset 26px 26px 51px #101010, inset -26px -26px 51px #424040; */
+  /* box-shadow: -10px -10px 3px -5px #4d4e4e inset, 1px 0 1px 0 black; */
 }
 
 .search_bar:focus {
@@ -27,7 +30,7 @@
   top: 1;
   bottom: 0;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .search_bar:hover .search_icon {

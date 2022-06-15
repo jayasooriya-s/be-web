@@ -15,7 +15,7 @@
   margin-top: 140px;
   font-style: normal;
   font-weight: 500;
-  font-size: 29px;
+  font-size: 18px;
   line-height: 34px;
   text-align: justify;
   color: #f6b72e;
@@ -23,12 +23,12 @@
 }
 
 .social {
-  width: 210px;
+  width: 100px;
   color: #f6b72e;
   padding-left: 86px;
   flex-direction: row;
   display: inline-flex;
-  font-size: 50px;
+  font-size: 24px;
   justify-content: space-between;
   padding-top: 90px;
   flex-direction: row;
@@ -36,27 +36,39 @@
 .footer_container_right {
   width: 65%;
   height: 100%;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.footer_ul {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .footer_li {
-  align-items: center;
+  display: inline-block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+  /* align-items: center;
   justify-content: center;
   display: inline-block;
-  margin: 0 15px 0 15px;
-  font-size: 24px;
+  margin: 0 15px 0 15px; */
+  font-size: 16px;
   cursor: pointer;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
   line-height: 28px;
   text-align: center;
   padding-top: 153px;
-
   color: #f6b72e;
 }
 
 .subscribe {
-  padding: 60px 60px 26px 60px;
+  padding: 60px 0px 26px 0px;
 }
 
 .text_logo_container {
@@ -65,6 +77,6 @@
   position: relative;
 }
 .text_logo {
-  right: 27px;
+  right: 0px;
   position: absolute;
 }
