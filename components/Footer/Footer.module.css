@@ -53,10 +53,6 @@
   display: inline-block;
   flex: 0 1 auto; /* Default */
   list-style-type: none;
-  /* align-items: center;
-  justify-content: center;
-  display: inline-block;
-  margin: 0 15px 0 15px; */
   font-size: 16px;
   cursor: pointer;
   font-style: normal;
