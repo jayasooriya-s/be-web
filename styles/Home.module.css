@@ -50,6 +50,6 @@
 .second_banner_row_2 {
   width: 50%;
   display: inline-flex;
-  justify-content: end;
-  align-items: end;
+  justify-content: flex-end;
+  align-items: flex-end;
 }

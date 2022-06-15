@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import crate from "../public/neon-crate.png";
-import { SmallBlackButton } from "../components";
+import { SmallBlackButton, VideoBanner } from "../components";
 
 const Home: NextPage = () => {
   return (
@@ -38,6 +38,9 @@ const Home: NextPage = () => {
             layout="intrinsic"
           ></Image>
         </div>
+      </div>
+      <div>
+        <VideoBanner />
       </div>
     </div>
   );
