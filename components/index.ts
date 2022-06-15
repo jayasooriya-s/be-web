@@ -5,3 +5,4 @@ export { default as SmallBlackButton } from "./SmallBlackButton";
 export { default as VideoBanner } from "./VideoBanner";
 export { default as Countdown } from "./Countdown";
 export { default as ContainerWithButton } from "./ContainerWithButton";
+export { default as Testimonials } from "./Testimonials";

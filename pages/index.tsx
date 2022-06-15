@@ -9,6 +9,7 @@ import {
   VideoBanner,
   Countdown,
   ContainerWithButton,
+  Testimonials,
 } from "../components";
 
 const Home: NextPage = () => {
@@ -64,6 +65,9 @@ const Home: NextPage = () => {
       </div>
       <div className={styles.small_container_with_button}>
         <ContainerWithButton></ContainerWithButton>
+      </div>
+      <div className={styles.testimonials}>
+        <Testimonials />
       </div>
     </div>
   );
