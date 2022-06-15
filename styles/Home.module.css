@@ -53,3 +53,9 @@
   justify-content: flex-end;
   align-items: flex-end;
 }
+
+.bulb {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}

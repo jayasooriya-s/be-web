@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import crate from "../public/neon-crate.png";
+import bulb from "../public/bulb.png";
 import { SmallBlackButton, VideoBanner } from "../components";
 
 const Home: NextPage = () => {
@@ -41,6 +42,15 @@ const Home: NextPage = () => {
       </div>
       <div>
         <VideoBanner />
+      </div>
+      <div className={styles.bulb}>
+        <Image
+          src={bulb.src}
+          alt=""
+          width={293}
+          height={416}
+          layout="intrinsic"
+        />
       </div>
     </div>
   );
