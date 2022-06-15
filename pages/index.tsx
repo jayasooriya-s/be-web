@@ -4,7 +4,12 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import crate from "../public/neon-crate.png";
 import bulb from "../public/bulb.png";
-import { SmallBlackButton, VideoBanner, Countdown } from "../components";
+import {
+  SmallBlackButton,
+  VideoBanner,
+  Countdown,
+  ContainerWithButton,
+} from "../components";
 
 const Home: NextPage = () => {
   return (
@@ -56,6 +61,9 @@ const Home: NextPage = () => {
         <Countdown />
         <Countdown />
         <Countdown />
+      </div>
+      <div className={styles.small_container_with_button}>
+        <ContainerWithButton></ContainerWithButton>
       </div>
     </div>
   );
